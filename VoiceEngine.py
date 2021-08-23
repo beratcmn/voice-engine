@@ -1,13 +1,11 @@
 # ------------------------- Imports -------------------------
 # Voice Engine libraries
-from types import TracebackType
 from gtts import gTTS
 import speech_recognition as sr
 import vlc
 # General libraries
 import time
 import os
-import sys
 
 # ------------------------- Global Variables -------------------------
 r = sr.Recognizer()
